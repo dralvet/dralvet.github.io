@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Auditor | Microsoft Marketplace Agent</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f6f8fb;
+        --card: #ffffff;
+        --text: #1b1e28;
+        --muted: #5d6476;
+        --accent: #2563eb;
+        --accent-soft: #dbeafe;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.55;
+      }
+      .container {
+        max-width: 980px;
+        margin: 0 auto;
+        padding: 2.5rem 1.25rem 3rem;
+      }
+      .hero,
+      .section {
+        background: var(--card);
+        border-radius: 14px;
+        padding: 1.5rem;
+        box-shadow: 0 6px 20px rgba(17, 24, 39, 0.06);
+      }
+      .hero {
+        margin-bottom: 1rem;
+      }
+      h1,
+      h2 {
+        margin-top: 0;
+      }
+      h1 {
+        font-size: clamp(1.7rem, 3vw, 2.3rem);
+        margin-bottom: 0.5rem;
+      }
+      h2 {
+        font-size: 1.2rem;
+        margin-bottom: 0.6rem;
+      }
+      p {
+        margin: 0.45rem 0;
+      }
+      .tag {
+        display: inline-block;
+        font-size: 0.78rem;
+        font-weight: 600;
+        letter-spacing: 0.02em;
+        color: var(--accent);
+        background: var(--accent-soft);
+        border-radius: 999px;
+        padding: 0.35rem 0.65rem;
+        margin-bottom: 0.7rem;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 1rem;
+        margin-top: 1rem;
+      }
+      ul {
+        margin: 0.45rem 0 0;
+        padding-left: 1.1rem;
+      }
+      li {
+        margin: 0.3rem 0;
+      }
+      .stack {
+        display: grid;
+        gap: 1rem;
+      }
+      .muted {
+        color: var(--muted);
+      }
+      footer {
+        margin-top: 1rem;
+        text-align: center;
+        font-size: 0.9rem;
+        color: var(--muted);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <section class="hero">
+        <span class="tag">Microsoft Marketplace Agent</span>
+        <h1>AI Auditor</h1>
+        <p>
+          AI Auditor is a comprehensive tenant discovery and assessment agent that evaluates
+          AI agent readiness and Responsible AI compliance across the Microsoft Cloud ecosystem.
+        </p>
+        <p class="muted">
+          It runs wide, Graph-powered assessments across Microsoft Entra ID, Microsoft 365,
+          Intune, Teams, SharePoint, Exchange, Microsoft Defender, Microsoft Purview, and
+          additional Microsoft Graph-connected services exposed through the Microsoft Graph API.
+        </p>
+      </section>
+
+      <div class="stack">
+        <section class="section">
+          <h2>Mission</h2>
+          <p>
+            Provide organizations with a clear, evidence-based readiness picture for AI agents and
+            Copilot deployments by continuously assessing security posture, governance maturity,
+            privacy controls, and compliance alignment.
+          </p>
+        </section>
+
+        <section class="section">
+          <h2>What AI Auditor Assesses</h2>
+          <div class="grid">
+            <div>
+              <strong>Security Baseline</strong>
+              <ul>
+                <li>Identity posture, access control, and conditional access coverage</li>
+                <li>Endpoint and workload protection signals from Defender and Intune</li>
+                <li>Privilege, exposure, and policy gaps that impact AI deployment risk</li>
+              </ul>
+            </div>
+            <div>
+              <strong>Data Governance</strong>
+              <ul>
+                <li>Data classification, sensitivity labeling, and retention controls</li>
+                <li>Purview governance and lifecycle readiness for AI-accessible content</li>
+                <li>Oversharing, sprawl, and permission hygiene across collaboration services</li>
+              </ul>
+            </div>
+            <div>
+              <strong>Privacy &amp; Compliance</strong>
+              <ul>
+                <li>Privacy-by-design and access-minimization readiness checks</li>
+                <li>Control mapping to regulatory and internal policy requirements</li>
+                <li>Operational guardrails for safe and auditable AI adoption</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <h2>Responsible AI Alignment</h2>
+          <p>
+            AI Auditor evaluates your environment against Microsoft Responsible AI principles and
+            highlights practical remediations for each domain:
+          </p>
+          <ul>
+            <li><strong>Fairness:</strong> identify policy and data access conditions that can bias outcomes.</li>
+            <li><strong>Reliability &amp; Safety:</strong> assess resilience controls and safe operational boundaries.</li>
+            <li><strong>Privacy &amp; Security:</strong> verify protection of sensitive data and least-privilege access.</li>
+            <li><strong>Inclusiveness:</strong> surface collaboration and accessibility gaps impacting adoption.</li>
+            <li><strong>Transparency:</strong> promote traceability through evidence-backed findings and reporting.</li>
+            <li><strong>Accountability:</strong> connect ownership, controls, and remediation workflows.</li>
+          </ul>
+        </section>
+
+        <section class="section">
+          <h2>Business Outcomes</h2>
+          <ul>
+            <li>Accelerate secure Copilot and AI agent rollouts with confidence.</li>
+            <li>Prioritize remediation with tenant-wide visibility and risk context.</li>
+            <li>Demonstrate Responsible AI readiness to leadership, audit, and compliance teams.</li>
+          </ul>
+        </section>
+      </div>
+
+      <footer>
+        AI Auditor — tenant-wide Microsoft Graph discovery for Responsible AI readiness.
+      </footer>
+    </main>
+  </body>
+</html>
